@@ -1,0 +1,63 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Node.js dependencies
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Environment files
+.env
+.env.*.local
+
+# Log files
+*.log
+logs/
+/storage/logs/
+
+# MacBook sample files
+.DS_Store
+public/templates/
+
+# Cache files
+/cache/
+/tmp/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# PHPStorm IDE
+.idea/
+
+# VS Code
+.vscode/
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Coverage reports
+/coverage/
+/*.cov
+
+# Laravel specific
+/storage/
+*.key
+
+# Symfony specific
+/var/
+/config/*.secrets.*.yaml
+
+# WordPress specific
+/wp-content/uploads/
+/wp-content/upgrade/
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+Thumbs.db
+*.sqlite
